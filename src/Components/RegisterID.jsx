@@ -136,6 +136,7 @@ const RegisterID = ({ formData, setFormData, handleInputChange }) => {
 
 			<div className="flex gap-[1rem]">
 				<div>
+					<label htmlFor="dobAD">जन्ममिति (BS)</label>
 					<NepaliDatePicker
 						inputClassName="form-control"
 						value={formData.applicantData.dobBS}
